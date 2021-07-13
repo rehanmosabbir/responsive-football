@@ -11,5 +11,54 @@
 html {
   font-size: 62.5%;
 }
+body {
+  font-family: "Poppins", sans-serif;
+}
 
 /* Utilities */
+.container {
+  max-width: 1142px;
+  margin: 0px auto;
+}
+
+h1 {
+  font-size: 6.4rem;
+  font-weight: 700;
+  line-height: 8rem;
+}
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem 2.4rem;
+  margin-top: 2.7rem;
+}
+
+.btn-primary {
+  background-color: #e02c6d;
+}
+
+/* Main Header */
+#main-header {
+  background-color: #24279c;
+  color: #fff;
+  padding: 8.6rem 0;
+}
+
+.header-info {
+  display: flex;
+}
+.header-text {
+  width: 485px;
+  margin-top: 5.5rem;
+  padding-left: 1rem;
+}
+
+.header-image {
+  width: 556px;
+  padding-left: 11rem;
+}
+.header-image img {
+  width: 100%;
+}
