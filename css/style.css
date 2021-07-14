@@ -108,11 +108,13 @@ h1 {
   grid-row-gap: 2.7rem;
   grid-column-gap: 3rem;
 }
-.player-single {
+.player-single,
+.highlight-single {
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   padding: 1.5rem;
 }
-.player-single img {
+.player-single img,
+.highlight-single img {
   width: 100%;
 }
 .player-single h2 {
@@ -137,7 +139,8 @@ h1 {
   padding: 5rem 0;
 }
 .gallery h2,
-.our-partner h2 {
+.our-partner h2,
+#highlights h2 {
   font-size: 3.5rem;
   text-align: center;
   margin-bottom: 4rem;
@@ -175,10 +178,39 @@ h1 {
   width: 100%;
 }
 
+/* Highlights Section */
+
+.highlights-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: 2.7rem;
+  grid-column-gap: 3rem;
+}
+.highlight-single h3 {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #222;
+  margin-top: 1rem;
+}
+.highlight-single h4 {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #222;
+}
+.highlight-single p {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #222;
+  margin-top: 2rem;
+}
+
 /* Partner Section */
 
 .our-partner {
   background-color: #eee;
+  margin-top: 6rem;
 }
 .partner-box {
   display: flex;
