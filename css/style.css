@@ -226,3 +226,53 @@ footer {
 .copy {
   font-size: 1.8rem;
 }
+
+/* Media Query */
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 3.6rem;
+    font-weight: 500;
+    line-height: 5rem;
+  }
+  .header-info {
+    flex-wrap: wrap;
+  }
+
+  .players-info {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-row-gap: 2.7rem;
+    grid-column-gap: 3rem;
+  }
+
+  .big-gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 1rem;
+    margin: 1rem 0;
+  }
+  .small-gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 1rem;
+    margin: 1rem 0;
+  }
+  .partner-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-top-info {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 2rem;
+  }
+
+  .footer-info img {
+    width: 240px;
+  }
+}
