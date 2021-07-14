@@ -37,9 +37,25 @@ h1 {
   font-size: 16px;
   line-height: 24px;
 }
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1rem 2.4rem;
+  margin-top: 2.7rem;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
 
 .btn-primary {
   background-color: #e02c6d;
+  color: #fff;
+  border: 1px solid #e02c6d;
+}
+.btn-primary:hover {
+  background-color: #fff;
+  color: #e02c6d;
+  border: 1px solid #e02c6d;
 }
 
 /*  Header Section */
@@ -492,11 +508,17 @@ footer {
   .footer-top-link,
   .footer-top-app,
   .footer-top-lang {
-    margin-bottom: 1rem;
-    border: 1px solid #777;
-    padding: 3rem;
+    text-align: center;
+    padding: 5rem 0;
   }
-
+  .footer-top-logo,
+  .footer-top-link {
+    border-bottom: 0.5px solid #ccc;
+  }
+  .footer-top-logo,
+  .footer-top-app {
+    border-right: 0.55px solid #ccc;
+  }
   .footer-info img {
     width: 340px;
   }
