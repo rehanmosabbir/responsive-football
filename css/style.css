@@ -513,11 +513,14 @@ footer {
   }
   .footer-top-logo,
   .footer-top-link {
-    border-bottom: 0.5px solid #ccc;
+    border-bottom: 0.1px solid #ccc;
   }
-  .footer-top-logo,
+
+  .footer-top-link {
+    border-left: 0.1px solid #ccc;
+  }
   .footer-top-app {
-    border-right: 0.55px solid #ccc;
+    border-right: 0.1px solid #ccc;
   }
   .footer-info img {
     width: 340px;
