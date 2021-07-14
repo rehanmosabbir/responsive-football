@@ -304,12 +304,25 @@ footer {
 /* Tablet */
 @media (min-width: 481px) and (max-width: 768px) {
   h1 {
-    font-size: 5.6rem;
+    font-size: 6.6rem;
     font-weight: 500;
-    line-height: 6rem;
+    line-height: 7rem;
+  }
+
+  .header-image {
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .header-image img {
+    margin-top: 5rem;
   }
   .header-info {
     flex-wrap: wrap;
+  }
+
+  .header-text {
+    padding-left: 7rem;
   }
 
   .players-info {
@@ -323,13 +336,13 @@ footer {
   .big-gallery {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
     margin: 1rem 0;
   }
   .small-gallery {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
     margin: 1rem 0;
   }
   .partner-box {
@@ -343,6 +356,15 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 2rem;
+  }
+
+  .footer-top-logo,
+  .footer-top-link,
+  .footer-top-app,
+  .footer-top-lang {
+    margin-bottom: 1rem;
+    border: 1px solid #777;
+    padding: 3rem;
   }
 
   .footer-info img {
