@@ -23,7 +23,7 @@ body {
 
 h1 {
   font-size: 6.4rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 8rem;
 }
 
@@ -108,14 +108,17 @@ h1 {
 
 /* Gallery */
 
-.gallery {
-  padding: 7rem 0;
+.gallery,
+.our-partner {
+  padding: 6rem 0;
 }
-.gallery h2 {
-  font-size: 5rem;
+.gallery h2,
+.our-partner h2 {
+  font-size: 3.5rem;
   text-align: center;
   margin-bottom: 3rem;
   color: #004478;
+  font-weight: 300;
 }
 
 .big-gallery {
@@ -136,6 +139,66 @@ h1 {
   width: 100%;
 }
 
+/* Partner Section */
+.partner-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner-box img {
+  display: inline-block;
+  margin: 1rem 2rem;
+}
+
+/* Footer Top */
+#footer-top {
+  background: url("https://assets-production.applicaster.com/static/copa_america/images/footer-bg.png");
+  color: #fff;
+  padding: 8.6rem 0;
+}
+
+.footer-top-info {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 2rem;
+}
+
+.footer-top-logo,
+.footer-top-link,
+.footer-top-app {
+  padding-left: 2rem;
+}
+
+.footer-top-logo img {
+  width: 60%;
+}
+
+.footer-top-link ul,
+.footer-top-lang ul {
+  list-style: none;
+}
+
+.footer-top-link ul li a,
+.footer-top-lang ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.6rem;
+  margin: 0.5rem 0;
+  font-weight: 300;
+}
+
+.footer-top-app h3,
+.footer-top-lang h3 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+.footer-top-app a {
+  display: block;
+  margin: 1rem 0;
+}
 /* Footer  */
 footer {
   padding: 6rem 0;
