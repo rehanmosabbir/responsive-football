@@ -110,13 +110,13 @@ h1 {
 
 .gallery,
 .our-partner {
-  padding: 6rem 0;
+  padding: 5rem 0;
 }
 .gallery h2,
 .our-partner h2 {
   font-size: 3.5rem;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
   color: #004478;
   font-weight: 300;
 }
@@ -140,6 +140,10 @@ h1 {
 }
 
 /* Partner Section */
+
+.our-partner {
+  background-color: #eee;
+}
 .partner-box {
   display: flex;
   justify-content: center;
@@ -155,7 +159,7 @@ h1 {
 #footer-top {
   background: url("https://assets-production.applicaster.com/static/copa_america/images/footer-bg.png");
   color: #fff;
-  padding: 8.6rem 0;
+  padding: 6.6rem 0;
 }
 
 .footer-top-info {
