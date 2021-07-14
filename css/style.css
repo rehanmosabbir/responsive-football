@@ -158,6 +158,18 @@ h1 {
   margin: 1rem 0;
 }
 
+.img-hover-zoom {
+  overflow: hidden;
+}
+
+.img-hover-zoom img {
+  transition: transform 0.5s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+
 .big-gallery img,
 .small-gallery img {
   width: 100%;
@@ -247,6 +259,19 @@ footer {
   font-size: 2rem;
 }
 
+.fa-facebook {
+  color: #3b5998;
+}
+.fa-instagram {
+  color: #3f729b;
+}
+.fa-youtube {
+  color: #ff0000;
+}
+.fa-dribbble {
+  color: #ea4c89;
+}
+
 .copy {
   font-size: 1.8rem;
 }
@@ -317,10 +342,13 @@ footer {
   }
   .footer-top-logo,
   .footer-top-link,
-  .footer-top-app,
-  .footer-top-lang {
+  .footer-top-app {
     margin-bottom: 1rem;
-    border-bottom: 2px solid #fff;
+    border-bottom: 1px solid #eee;
+    padding: 2rem 0;
+  }
+  .footer-top-lang {
+    padding: 2rem 0;
   }
 
   .footer-info img {
